@@ -38,11 +38,11 @@ export default function Header() {
                         <IoIosSearch size={25} />
                     </button>
                 </div>
+                {/* Voice Search */}
                 <div className="bg-slate-100 p-2 rounded-3xl">
                     <MdKeyboardVoice size={25} />
                 </div>
             </div>
-            {/* Voice Search */}
             {/* Upload & Notifications & User*/}
             <div className="flex gap-4 pr-5">
                 <div className="p-2 rounded-3xl hover:bg-slate-100 hover:shadow-md">
